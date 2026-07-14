@@ -1,0 +1,132 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000065 /* PhotoPilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000001 /* PhotoPilotApp.swift */; };
+		A00000000000000000000066 /* SidebarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000002 /* SidebarItem.swift */; };
+		A00000000000000000000067 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* AppViewModel.swift */; };
+		A00000000000000000000068 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000004 /* RootView.swift */; };
+		A00000000000000000000069 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000005 /* SidebarView.swift */; };
+		A0000000000000000000006A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000006 /* DetailView.swift */; };
+		A0000000000000000000006B /* BaseScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000007 /* BaseScreenView.swift */; };
+		A0000000000000000000006C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000008 /* DashboardView.swift */; };
+		A0000000000000000000006D /* DailyReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000009 /* DailyReviewView.swift */; };
+		A0000000000000000000006E /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000A /* EventsView.swift */; };
+		A0000000000000000000006F /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000B /* ProjectsView.swift */; };
+		A00000000000000000000070 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000C /* PeopleView.swift */; };
+		A00000000000000000000071 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000D /* PlacesView.swift */; };
+		A00000000000000000000072 /* CollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000E /* CollectionsView.swift */; };
+		A00000000000000000000073 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000F /* SearchView.swift */; };
+		A00000000000000000000074 /* LibraryHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000010 /* LibraryHealthView.swift */; };
+		A00000000000000000000075 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000011 /* SettingsView.swift */; };
+		A00000000000000000000076 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000012 /* EmptyStateView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0000000000000000000F001 /* PhotoPilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000001 /* PhotoPilotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPilotApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000002 /* SidebarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarItem.swift; sourceTree = "<group>"; };
+		A00000000000000000000003 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		A00000000000000000000004 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A00000000000000000000005 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		A00000000000000000000006 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* BaseScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreenView.swift; sourceTree = "<group>"; };
+		A00000000000000000000008 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A00000000000000000000009 /* DailyReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyReviewView.swift; sourceTree = "<group>"; };
+		A0000000000000000000000A /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		A0000000000000000000000B /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		A0000000000000000000000C /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		A0000000000000000000000D /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		A0000000000000000000000E /* CollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsView.swift; sourceTree = "<group>"; };
+		A0000000000000000000000F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		A00000000000000000000010 /* LibraryHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryHealthView.swift; sourceTree = "<group>"; };
+		A00000000000000000000011 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A00000000000000000000012 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A0000000000000000000E001 = {isa = PBXGroup; children = (A0000000000000000000E002 /* PhotoPilot */, A0000000000000000000E003 /* Products */, ); sourceTree = "<group>"; };
+		A0000000000000000000E003 /* Products */ = {isa = PBXGroup; children = (A0000000000000000000F001 /* PhotoPilot.app */, ); name = Products; sourceTree = "<group>"; };
+		A0000000000000000000E002 /* PhotoPilot */ = {isa = PBXGroup; children = (
+				A00000000000000000000001 /* PhotoPilotApp.swift */,
+				A0000000000000000000E010 /* Models */,
+				A0000000000000000000E020 /* ViewModels */,
+				A0000000000000000000E030 /* Views */,
+			); path = PhotoPilot; sourceTree = "<group>"; };
+		A0000000000000000000E010 /* Models */ = {isa = PBXGroup; children = (
+				A00000000000000000000002 /* SidebarItem.swift */,
+			); path = Models; sourceTree = "<group>"; };
+		A0000000000000000000E020 /* ViewModels */ = {isa = PBXGroup; children = (
+				A00000000000000000000003 /* AppViewModel.swift */,
+			); path = ViewModels; sourceTree = "<group>"; };
+		A0000000000000000000E030 /* Views */ = {isa = PBXGroup; children = (
+				A00000000000000000000004 /* RootView.swift */,
+				A00000000000000000000005 /* SidebarView.swift */,
+				A00000000000000000000006 /* DetailView.swift */,
+				A0000000000000000000E040 /* Screens */,
+			); path = Views; sourceTree = "<group>"; };
+		A0000000000000000000E040 /* Screens */ = {isa = PBXGroup; children = (
+				A00000000000000000000007 /* BaseScreenView.swift */,
+				A00000000000000000000008 /* DashboardView.swift */,
+				A00000000000000000000009 /* DailyReviewView.swift */,
+				A0000000000000000000000A /* EventsView.swift */,
+				A0000000000000000000000B /* ProjectsView.swift */,
+				A0000000000000000000000C /* PeopleView.swift */,
+				A0000000000000000000000D /* PlacesView.swift */,
+				A0000000000000000000000E /* CollectionsView.swift */,
+				A0000000000000000000000F /* SearchView.swift */,
+				A00000000000000000000010 /* LibraryHealthView.swift */,
+				A00000000000000000000011 /* SettingsView.swift */,
+				A00000000000000000000012 /* EmptyStateView.swift */,
+			); path = Screens; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0000000000000000000D001 /* PhotoPilot */ = {isa = PBXNativeTarget; buildConfigurationList = A0000000000000000000C002 /* Build configuration list for PBXNativeTarget "PhotoPilot" */; buildPhases = (A0000000000000000000B001 /* Sources */, ); buildRules = (); dependencies = (); name = PhotoPilot; productName = PhotoPilot; productReference = A0000000000000000000F001 /* PhotoPilot.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0000000000000000000D000 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {A0000000000000000000D001 = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = A0000000000000000000C001 /* Build configuration list for PBXProject "PhotoPilot" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = A0000000000000000000E001; productRefGroup = A0000000000000000000E003 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A0000000000000000000D001 /* PhotoPilot */, ); };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0000000000000000000B001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				A00000000000000000000065 /* PhotoPilotApp.swift in Sources */,
+				A00000000000000000000066 /* SidebarItem.swift in Sources */,
+				A00000000000000000000067 /* AppViewModel.swift in Sources */,
+				A00000000000000000000068 /* RootView.swift in Sources */,
+				A00000000000000000000069 /* SidebarView.swift in Sources */,
+				A0000000000000000000006A /* DetailView.swift in Sources */,
+				A0000000000000000000006B /* BaseScreenView.swift in Sources */,
+				A0000000000000000000006C /* DashboardView.swift in Sources */,
+				A0000000000000000000006D /* DailyReviewView.swift in Sources */,
+				A0000000000000000000006E /* EventsView.swift in Sources */,
+				A0000000000000000000006F /* ProjectsView.swift in Sources */,
+				A00000000000000000000070 /* PeopleView.swift in Sources */,
+				A00000000000000000000071 /* PlacesView.swift in Sources */,
+				A00000000000000000000072 /* CollectionsView.swift in Sources */,
+				A00000000000000000000073 /* SearchView.swift in Sources */,
+				A00000000000000000000074 /* LibraryHealthView.swift in Sources */,
+				A00000000000000000000075 /* SettingsView.swift in Sources */,
+				A00000000000000000000076 /* EmptyStateView.swift in Sources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A0000000000000000000A001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		A0000000000000000000A002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Release; };
+		A0000000000000000000A003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSHumanReadableCopyright = ""; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.photopilot.app; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; }; name = Debug; };
+		A0000000000000000000A004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSHumanReadableCopyright = ""; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.photopilot.app; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0000000000000000000C001 /* Build configuration list for PBXProject "PhotoPilot" */ = {isa = XCConfigurationList; buildConfigurations = (A0000000000000000000A001 /* Debug */, A0000000000000000000A002 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A0000000000000000000C002 /* Build configuration list for PBXNativeTarget "PhotoPilot" */ = {isa = XCConfigurationList; buildConfigurations = (A0000000000000000000A003 /* Debug */, A0000000000000000000A004 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A0000000000000000000D000 /* Project object */;
+}
